@@ -1,0 +1,10 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /public_asana_tasks/{taskId} {
+      allow read: if true;
+      allow write: if false;
+    }
+  }
+}

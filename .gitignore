@@ -1,0 +1,13 @@
+node_modules/
+**/node_modules/
+.env
+**/.env
+*.json
+!execution/firebase/firebase.json
+!execution/firebase/firestore.indexes.json
+!execution/firebase/functions/package.json
+!execution/firebase/functions/package-lock.json
+.tmp/
+*.log
+**/deploy_log.txt
+.DS_Store
